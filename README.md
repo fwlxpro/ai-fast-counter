@@ -12,7 +12,7 @@ Tento dokument vysvětluje, jak **připojit svůj Discord bot** k naší AI API.
 
 ## 🔑 Co budete potřebovat
 
-* 🌐 URL naší API (např. `https://ai-api-xxxx.onrender.com`)
+* 🌐 URL naší API (např. `https://ai-api-cnon.onrender.com/`)
 * 🔑 Váš **API klíč**, který vám poskytneme
 * 🤖 Discord bota (Node.js nebo Python)
 * 📦 Knihovny pro práci s HTTP požadavky (např. `node-fetch` pro Node.js, `requests` pro Python)
@@ -226,4 +226,20 @@ Decrypted = AES_Decrypt(Encrypted, MEMORY_SECRET_KEY)
 * Paměť je automaticky šifrována.
 
 Teď můžeš mít AI v botech s pamětí 🧠 a šifrovanou databází 🔒 bez složité konfigurace!
+
+--- 
+## Naše API je nezisková organizace 🔗 
+* Jsme nezisková organizace která ráda experimentuje s kódem všecky data jsou šifrována a uchovávaná ve vašich rukou. Proto taky jsme přidali pro vás možnost vyzobrazovat data jedině vy s vaším API klíčem to můžete odšifrovat.
+
+--- 
+## 🔧 API můžete použít na cokoliv
+- Chtěl by jsem říct že se naše api nestahuje jen na discord boty můžete si naší konfiguraci a volání přizpůsobit celkově k jiným věcem třeba web chaty apod.. ale vyžaduje to už větší znalosti programování a škálovatelnost. Do budoucna plánujeme přidat že bude náš server na základě vašich serverových chatů a jejich dat moci vylepšovat váš model jen pokud nám dáte souhlas.
+  ``` Další příklady kódů najdete v tomto repozitáři ```
+
+  <img width="224" height="224" alt="image" src="https://github.com/user-attachments/assets/12ec9656-611d-4145-96bf-61778c435619" />
+
+
+
+Díky! :-D 
+
 
