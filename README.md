@@ -195,25 +195,7 @@ async def on_message(message):
 client.run(TOKEN)
 ```
 
----
 
-## 🔒 Paměť a šifrování
-
-* Paměť konverzací je ukládána do **šifrovaných souborů**.
-* Každý uživatel má svůj vlastní soubor (`userId.jsonl`).
-* Šifrování zajišťuje, že k datům nemá přístup nikdo mimo server.
-
-Vzorec šifrování (AES):
-
-```
-Encrypted = AES_Encrypt(content, MEMORY_SECRET_KEY)
-```
-
-Dešifrování:
-
-```
-Decrypted = AES_Decrypt(Encrypted, MEMORY_SECRET_KEY)
-```
 
 ---
 
@@ -234,6 +216,8 @@ Teď můžeš mít AI v botech s pamětí 🧠 a šifrovanou databází 🔒 bez
 --- 
 ## 🔧 API můžete použít na cokoliv
 - Chtěl by jsem říct že se naše api nestahuje jen na discord boty můžete si naší konfiguraci a volání přizpůsobit celkově k jiným věcem třeba web chaty apod.. ale vyžaduje to už větší znalosti programování a škálovatelnost. Do budoucna plánujeme přidat že bude náš server na základě vašich serverových chatů a jejich dat moci vylepšovat váš model jen pokud nám dáte souhlas.
+
+- 🛡️ Naše infrastruktura je chráněná proti mass-api-ping. a dalších zbytečných requestů proto nejsou klíče celkově veřejné protě lidi chovejme se jako lidi a ne jako zvířata. ale hold jsme to radši preventivně zabezpečily. 
   ``` Další příklady kódů najdete v tomto repozitáři ```
 
   <img width="224" height="224" alt="image" src="https://github.com/user-attachments/assets/12ec9656-611d-4145-96bf-61778c435619" />
@@ -241,5 +225,5 @@ Teď můžeš mít AI v botech s pamětí 🧠 a šifrovanou databází 🔒 bez
 
 
 Díky! :-D 
-
+--- 
 
